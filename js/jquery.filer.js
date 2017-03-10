@@ -904,7 +904,6 @@
                                 excl_input(val);
                                 f._itFl.splice(id, 1);
                                 if (f._itFl.length < 1) {
-                                    f._reset();
                                     f._clear();
                                 } else {
                                     f._set('feedback', f._itFl.length + ' ' + n.captions.feedback2);
